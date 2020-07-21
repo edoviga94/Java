@@ -1,0 +1,24 @@
+
+public class Moneta {
+	
+	private String valore;
+
+	public String lancia() {
+		
+		int res = (int)Math.random()*2;
+		if(res == 0)
+			valore += "testa";
+		else
+			valore += "croce";
+		return valore;
+		
+	}
+	
+	public void stampa() {
+		System.out.println("Risultato del lancio: "+lancia());
+	}
+	
+	
+	
+
+}

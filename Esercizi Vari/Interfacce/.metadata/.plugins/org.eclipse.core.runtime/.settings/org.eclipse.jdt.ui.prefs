@@ -1,0 +1,9 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="Esponenziale"><rhs name\="Cubo"/><rhs name\="Quadrato"/></lhs><lhs name\="Cubo"><rhs name\="Cubo"/></lhs><lhs name\="Quadrato"><rhs name\="Quadrato"/></lhs><lhs name\="Distributore"><rhs name\="Distributore"/></lhs><lhs name\="Operazione"><rhs name\="Addition"/><rhs name\="Multiply"/></lhs><lhs name\="Stampa"><rhs name\="Addition"/><rhs name\="Multiply"/></lhs><lhs name\="Addition"><rhs name\="Addition"/></lhs><lhs name\="Multiply"><rhs name\="Multiply"/></lhs></history>
+content_assist_number_of_computers=12
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.ui.formatterprofiles.version=19
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

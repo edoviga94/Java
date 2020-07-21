@@ -1,0 +1,21 @@
+
+public class Quadrato implements Esponenziale{
+
+	private double valore;
+	
+	
+	
+	
+	public Quadrato(double valore) {
+		this.valore = valore;
+	}
+
+
+
+
+	@Override
+	public void eleva() {
+		// TODO Auto-generated method stub
+		
+	}
+}

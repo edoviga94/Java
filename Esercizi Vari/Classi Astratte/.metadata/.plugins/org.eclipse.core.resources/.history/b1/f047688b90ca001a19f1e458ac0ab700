@@ -1,0 +1,16 @@
+
+public class TestMonetaDado {
+
+	public static void main(String[] args) {
+		
+		
+		Moneta m = new Moneta();
+		m.lancia();
+		
+		
+		Dado d = new Dado();
+		d.lancia();
+
+	}
+
+}

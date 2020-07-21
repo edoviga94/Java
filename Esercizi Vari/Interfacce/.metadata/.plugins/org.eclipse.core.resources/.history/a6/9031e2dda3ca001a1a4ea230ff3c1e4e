@@ -1,0 +1,6 @@
+
+public interface Operazione {
+
+	
+	public double eseguiOp(double a, double b);
+}

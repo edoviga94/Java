@@ -1,0 +1,9 @@
+
+public abstract class OggetoD_azzardo {
+
+	public void lancia();
+	
+	public void stampa() {
+		System.out.println("Risultato del lancio: "+lancia);
+	}
+}

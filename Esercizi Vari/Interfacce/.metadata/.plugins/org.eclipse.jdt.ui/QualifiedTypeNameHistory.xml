@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="Esponenziale"/>
+    <fullyQualifiedTypeName name="Cubo"/>
+    <fullyQualifiedTypeName name="Quadrato"/>
+    <fullyQualifiedTypeName name="java.lang.Comparable"/>
+    <fullyQualifiedTypeName name="Distributore"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="Stampa"/>
+    <fullyQualifiedTypeName name="Operazione"/>
+    <fullyQualifiedTypeName name="Addition"/>
+    <fullyQualifiedTypeName name="Multiply"/>
+</qualifiedTypeNameHistroy>

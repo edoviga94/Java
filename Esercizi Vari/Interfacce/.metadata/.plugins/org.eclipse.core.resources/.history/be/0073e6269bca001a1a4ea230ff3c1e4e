@@ -1,0 +1,16 @@
+
+public class Distributore implements Comparable{
+	
+	private String città;
+	private String proprietario;
+	private double capacità;
+	private double benzina_contenuta;
+	
+	public Distributore(String città, String proprietario, double capacità, double benzina_contenuta) {
+		this.città = città;
+		this.proprietario = proprietario;
+		this.capacità = capacità;
+		this.benzina_contenuta = benzina_contenuta;
+	} 
+
+}

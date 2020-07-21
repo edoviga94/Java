@@ -1,0 +1,10 @@
+
+public class Divide extends Stampa implements Operazione {
+
+	@Override
+	public void stampa() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

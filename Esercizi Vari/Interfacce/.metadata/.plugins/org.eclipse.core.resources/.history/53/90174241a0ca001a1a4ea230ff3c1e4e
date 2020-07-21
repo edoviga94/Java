@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class TestDistributore {
+
+	public static void main(String[] args) {
+
+		Scanner in = new Scanner(System.in);
+
+		Distributore d1 = new Distributore("Seregno", "Mario Rossi", 2500, 1000);
+		Distributore d2 = new Distributore("Giussano", "Stefano Bianchi", 1000, 500);
+
+		boolean flag = true;
+		do {
+
+			System.out.println("Che azione si vuole fare?");
+
+		} while (flag);
+
+	}
+}

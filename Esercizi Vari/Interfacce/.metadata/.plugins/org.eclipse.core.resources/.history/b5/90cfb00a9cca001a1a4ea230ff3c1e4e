@@ -1,0 +1,34 @@
+
+public class Distributore implements Comparable {
+
+	private String città;
+	private String proprietario;
+	private double capacità;
+	private double benzina_contenuta;
+
+	public Distributore(String città, String proprietario, double capacità, double benzina_contenuta) {
+		this.città = città;
+		this.proprietario = proprietario;
+		this.capacità = capacità;
+		this.benzina_contenuta = benzina_contenuta;
+	}
+
+	public void eroga(int amount) {
+
+		if (benzina_contenuta < amount) {
+
+			System.out.println("Non si possiede abbastanza benzina");
+
+		} else {
+			benzina_contenuta -= amount;
+			System.out.println("Soldi guadagnati: " + (amount * 1.5));
+		}
+
+	}
+
+	@Override
+	public int compareTo(Distributore d) {
+
+		return 0;
+	}
+}

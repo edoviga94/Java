@@ -1,0 +1,54 @@
+import java.util.*;
+public class TestOperator {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		boolean flag = true;
+		
+		do {
+
+			System.out.println("Che operazione si vuole eseguire?");
+			System.out.println("_Addizione(+)");
+			System.out.println("_Moltiplicazione(*)");
+			System.out.println("_Divisione(/)");
+			System.out.println("_Uscire(x)");
+
+			char input = in.next().charAt(0);
+			System.out.println("Inserire i due operandi: ");
+			double op1 = in.nextDouble();
+			double op2 = in.nextDouble();
+
+
+			switch (input) {
+			case '+': {
+
+				
+				Addition add = new Addition(op1, op2);
+				add.stampa();				
+				break;
+
+			}
+
+			case '*': {
+				Multiply mul = new Multiply(op1, op2);
+				mul.stampa();				
+				break;
+			}
+			
+			case '/': {
+				Divide div = new Divide(op1, op2);
+				div.stampa();				
+				break;
+			}
+			default:
+				System.out.println("Arrivederci!");
+				flag = false;
+				break;
+			}
+
+		} while (flag);
+		
+	}
+
+}

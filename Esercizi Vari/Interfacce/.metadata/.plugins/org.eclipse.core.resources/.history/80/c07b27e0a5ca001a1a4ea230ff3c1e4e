@@ -1,0 +1,41 @@
+import java.util.*;
+public class TestOperator {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		do {
+
+			System.out.println("Che operazione si vuole eseguire?");
+			System.out.println("_Addizione(+)");
+			System.out.println("_Moltiplicazione(*)");
+			System.out.println("_Divisione(/)");
+			System.out.println("_Uscire(x)");
+
+			char input = in.next().charAt(0);
+
+			switch (input) {
+			case 'f': {
+
+				System.out.println("Inserire la quantità di benzina: ");
+				int x = in.nextInt();
+				d1.eroga(x);
+				break;
+
+			}
+
+			case 'c': {
+				d1.compareTo(d2);
+				break;
+			}
+			default:
+				System.out.println("Arrivederci!");
+				flag = false;
+				break;
+			}
+
+		} while (flag);
+		
+	}
+
+}

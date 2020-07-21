@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class TestDistributore {
+
+	public static void main(String[] args) {
+
+		Scanner in = new Scanner(System.in);
+
+		Distributore d1 = new Distributore("Seregno", "Mario Rossi", 2500, 1000);
+		Distributore d2 = new Distributore("Giussano", "Stefano Bianchi", 1000, 500);
+
+		boolean flag = true;
+		do {
+
+			System.out.println("Che azione si vuole fare?");
+			System.out.println("_Fare benzina(f)");
+			System.out.print("_Confrontare(c)");
+			System.out.print("_Uscire(u)");
+
+			char input = in.nextLine().charAt(0);
+			
+		} while (flag);
+
+	}
+}

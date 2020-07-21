@@ -1,0 +1,10 @@
+
+public class TestDistributore {
+
+	
+	public static void main(String[] args) {
+		
+		
+		Distributore d1 = new Distributore("Seregno", "Fumagalli Brambilla", 2500, 1000)
+	}
+}

@@ -1,0 +1,7 @@
+
+public abstract class OggetoD_azzardo {
+
+	public void lancia() {};
+	
+	public void stampa() {};
+}

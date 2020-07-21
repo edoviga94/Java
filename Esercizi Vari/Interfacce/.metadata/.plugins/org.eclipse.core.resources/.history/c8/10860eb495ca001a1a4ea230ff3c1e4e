@@ -1,0 +1,14 @@
+
+public class Cubo implements Esponenziale {
+
+	private int valore;
+	
+	
+	@Override
+	public void eleva() {
+		valore = Math.pow(valore, 3);
+		
+	}
+	
+	
+}

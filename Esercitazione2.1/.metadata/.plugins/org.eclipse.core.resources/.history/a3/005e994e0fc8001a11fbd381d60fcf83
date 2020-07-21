@@ -1,0 +1,20 @@
+import java.util.Date;
+
+public class ProdottiAlimentari extends Prodotti {
+
+	private Date scadenza;
+
+	public ProdottiAlimentari(String codiceABarre, String descrizione, int prezzo, Date scadenza) {
+		super(codiceABarre, descrizione, prezzo);
+		this.scadenza = scadenza;
+	}
+	
+	
+	public String toString() {
+		String s = super.toString();
+		s = s + "Scadenza: " + this.scadenza + "\n";
+		
+		return s;
+	}
+	
+}

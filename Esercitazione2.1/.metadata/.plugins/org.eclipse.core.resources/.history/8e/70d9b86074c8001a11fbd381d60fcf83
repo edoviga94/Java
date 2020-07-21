@@ -1,0 +1,18 @@
+
+public interface Elemento {
+	
+	public void weaker();
+	
+	public void louder();
+	
+	public void play();
+
+	public void brighter();
+
+	public void darker();
+	
+	public void show();
+
+	
+
+}

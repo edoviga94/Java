@@ -1,0 +1,6 @@
+
+public class ElementoMultimediale {
+	
+	private String titolo;
+	private int durata;
+}

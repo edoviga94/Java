@@ -1,0 +1,13 @@
+
+public class Immagine extends ElementoMultimediale{
+	
+	private int luminosità;
+
+	public Immagine(String titolo, int durata, int luminosità) {
+		super(titolo, durata);
+		this.luminosità = luminosità;
+	}
+	
+	
+
+}

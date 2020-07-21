@@ -1,0 +1,29 @@
+
+public class Immagine extends Elemento {
+
+	private int luminosità;
+
+	public Immagine(String t, int luminosità) {
+		super(t);
+		this.luminosità = luminosità;
+	}
+
+	public void brighter() {
+		luminosità++;
+	}
+
+	
+	public void darker() {
+		luminosità--;
+	}
+	
+	public void esegui() {
+		String ret = getTitolo()+": ";
+		for (int i = 0; i < luminosità; i++) {
+			ret += "* ";
+		}
+		
+		System.out.println(ret);
+	}
+	
+}

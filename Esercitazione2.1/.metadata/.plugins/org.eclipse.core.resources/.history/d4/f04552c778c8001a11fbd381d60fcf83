@@ -1,0 +1,41 @@
+import java.util.Scanner;
+public class Lettore {
+
+	public static void main(String[] args) {
+		
+		Elemento[] array = new Elemento[5];
+		Scanner in = new Scanner(System.in);
+		
+		int riproduci = 0;
+		
+		while(riproduci < 5) {
+			System.out.println("Decidere che tipo di elemento multimediale inserire: I/F/A");
+			
+			char c = in.nextLine().charAt(0);
+			
+			switch (c) {
+			case 'i': {
+				System.out.println("Inserire titolo e luminosità");
+				String t = in.nextLine();
+				int l = in.nextInt();
+				Immagine i = new Immagine(t, l);
+				array[riproduci] = i;
+			}
+			
+			case 'f': {
+				System.out.println("Inserire titolo,luminosità, durata e volume");
+				String t = in.nextLine();
+				int l = in.nextInt();
+				int d = in.nextInt();
+				int v = in.nextInt();
+				Filmato f = new Filmato(t, l, d, v);
+				array[riproduci] = i;
+			}
+			
+			case 'a': {
+				
+			}
+		}
+	}
+
+}

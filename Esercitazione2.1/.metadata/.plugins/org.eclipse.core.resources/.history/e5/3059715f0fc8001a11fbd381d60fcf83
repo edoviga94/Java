@@ -1,0 +1,12 @@
+
+public class ProdottiNonAlimentari extends Prodotti{
+
+	private String materiale;
+
+	public ProdottiNonAlimentari(String codiceABarre, String descrizione, int prezzo, String materiale) {
+		super(codiceABarre, descrizione, prezzo);
+		this.materiale = materiale;
+	}
+	
+	
+}

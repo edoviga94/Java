@@ -1,0 +1,17 @@
+
+public class Audio extends Elemento {
+	private int volume;
+
+	public Audio(String s, int volume) {
+		super(s);
+		this.volume = volume;
+	}
+	
+	public void weaker() {
+		volume--;
+	}
+	
+public void louder() {
+		volume++;
+	}
+}

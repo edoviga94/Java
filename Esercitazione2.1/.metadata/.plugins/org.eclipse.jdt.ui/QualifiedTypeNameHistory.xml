@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.graalvm.compiler.code.DataSection.Data"/>
+    <fullyQualifiedTypeName name="Prodotti"/>
+    <fullyQualifiedTypeName name="sun.util.calendar.LocalGregorianCalendar.Date"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="ProdottiNonAlimentari"/>
+    <fullyQualifiedTypeName name="ProdottiAlimentari"/>
+    <fullyQualifiedTypeName name="ElementoMultimediale"/>
+    <fullyQualifiedTypeName name="Elemento"/>
+    <fullyQualifiedTypeName name="Audio"/>
+    <fullyQualifiedTypeName name="Immagine"/>
+    <fullyQualifiedTypeName name="Filmato"/>
+</qualifiedTypeNameHistroy>

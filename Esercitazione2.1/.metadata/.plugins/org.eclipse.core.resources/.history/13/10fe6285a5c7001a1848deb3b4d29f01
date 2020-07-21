@@ -1,0 +1,15 @@
+
+public class Prodotti {
+	private String codiceABarre;
+	private String descrizione;
+	private int prezzo;
+	
+	public Prodotti(String codiceABarre, String descrizione, int prezzo) {
+		this.codiceABarre = codiceABarre;
+		this.descrizione = descrizione;
+		this.prezzo = prezzo;
+	}
+	
+	
+	
+}

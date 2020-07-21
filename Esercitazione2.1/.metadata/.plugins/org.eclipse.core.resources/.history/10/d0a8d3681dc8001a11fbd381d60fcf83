@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class ListaSpesa {
+	
+	public static void main(String[] args) {
+		
+		
+		Scanner in = new Scanner(System.in);
+		System.out.println("Si possieda la tessera fedeltà? Y/S");
+		
+		String risposta = in.nextLine();
+		if
+		Prodotti[] lista = new Prodotti[dim];
+		
+		
+		
+	}
+
+}

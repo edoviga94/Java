@@ -1,0 +1,18 @@
+
+public class Filmato extends Elemento {
+
+	private int volume;
+	private int durata;
+	private int luminosità;
+	
+	
+	public Filmato(String s, int volume, int durata, int luminosità) {
+		super(s);
+		this.volume = volume;
+		this.durata = durata;
+		this.luminosità = luminosità;
+	}
+
+	
+	
+}

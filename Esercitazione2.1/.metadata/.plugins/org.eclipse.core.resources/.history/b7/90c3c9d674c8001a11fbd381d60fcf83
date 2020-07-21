@@ -1,0 +1,13 @@
+
+public class Immagine implements Elemento{
+	
+	private int luminosità;
+	private String titolo;
+	
+	
+	
+	
+	
+	
+
+}

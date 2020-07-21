@@ -1,0 +1,45 @@
+import java.util.Date;
+import java.util.Scanner;
+
+public class ListaSpesa {
+	
+	public static void main(String[] args) {
+		
+		
+		Scanner in = new Scanner(System.in);
+		
+		Date scadenza1 = new Date(2020, 7, 30);
+		Date scadenza2 = new Date(2020, 7, 20);
+
+		
+		boolean sconto;
+		System.out.println("Si possieda la tessera fedeltà? Y/N");
+		
+		String risposta = in.nextLine();
+		if(risposta.equalsIgnoreCase(("Y"));
+			sconto = true;
+		else
+			sconto = false;
+		Prodotti[] lista = new Prodotti[5];
+		
+		int totale = 0;
+		
+		lista[0] = new Prodotti("A-0100-Z", "Bicchiere", 5);
+		lista[1] = new ProdottiAlimentari("D-7903-P", "Prosciutto", 3, scadenza1);
+		lista[2] = new ProdottiNonAlimentari("U-0395-M", "Carta per stampare", 20, "carta");
+		lista[3] = new ProdottiAlimentari("L-3490-F", "Gelato", 10, scadenza2);
+		lista[4] = new ProdottiNonAlimentari("W-9730-R", "Ferro da Stiro", 15, "Ferro");
+
+		for (int i = 0; i < lista.length; i++) {
+			if(sconto) 
+				lista[i].applicaSconto();
+			totale += lista[i].getPrezzo();
+			
+		}
+		
+		
+		System.out.println("Totale della spesa: "+totale);
+		
+	}
+
+}

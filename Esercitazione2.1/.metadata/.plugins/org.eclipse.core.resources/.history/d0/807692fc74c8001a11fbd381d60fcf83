@@ -1,0 +1,23 @@
+
+public class Immagine extends Elemento{
+	
+	private int luminosità;
+	private String titolo;
+	
+	
+	
+	public Immagine(int luminosità, String titolo) {
+		this.luminosità = luminosità;
+		this.titolo = titolo;
+	}
+	
+	public void brighter() {
+		
+	}
+	
+	
+	
+	
+	
+
+}

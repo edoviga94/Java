@@ -1,11 +1,11 @@
 
 public class Car extends Vehicle {
 
-	public int cilindrata;
+	public String tipologia;
 
-	public Car(String targa, String marca, String modello, boolean guasto, int cilindrata) {
+	public Car(String targa, String marca, String modello, boolean guasto, String tipologia) {
 		super(targa, marca, modello, guasto);
-		this.cilindrata = cilindrata;
+		this.tipologia = tipologia;
 	}
 	
 }

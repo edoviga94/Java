@@ -1,11 +1,11 @@
 
 public class Motorcycle extends Vehicle {
 
-	private String tipologia;
+	private int cilindrata;
 
-	public Motorcycle(String targa, String marca, String modello, boolean guasto, String tipologia) {
+	public Motorcycle(String targa, String marca, String modello, boolean guasto, int cilindrata) {
 		super(targa, marca, modello, guasto);
-		this.tipologia = tipologia;
+		this.cilindrata = cilindrata;
 	}
 
 }

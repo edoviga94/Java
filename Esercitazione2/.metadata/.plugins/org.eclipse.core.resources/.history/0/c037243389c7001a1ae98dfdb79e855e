@@ -1,0 +1,10 @@
+
+public class NumericQuestion extends Question {
+	
+	private String domandaNumerica;
+
+	public NumericQuestion(String domanda, String risposta, int punteggio, String domandaN) {
+		super(domanda, risposta, punteggio);
+		this.domandaNumerica = domandaN;
+	}
+}

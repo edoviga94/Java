@@ -1,0 +1,8 @@
+
+public class Stagista extends Person{
+	
+	private int numberOfPresence;
+	private int idNumber;
+	
+	
+}

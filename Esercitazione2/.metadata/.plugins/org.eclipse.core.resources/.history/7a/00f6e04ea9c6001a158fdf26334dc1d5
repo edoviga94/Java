@@ -1,0 +1,21 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+//		Person p = new Person();
+//
+//		p.printInfo();
+		
+		Person p = new Person("Paolino", "Paperino", "FSTBZC78P27I821R", "Paperopoli");
+//		p.printInfo();
+		
+		System.out.println("Nome: " +p.getName());
+		System.out.println("Cognome: " +p.getSurname());
+		System.out.println("Anno di Nascita: " +p.bornYear());
+
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+//		Person p = new Person();
+//
+//		p.printInfo();
+		
+		Person p = new Person("Paolino", "Paperino", "FSTBZC78P27I821R", "Paperopoli");
+		p.printInfo();
+		
+		
+	}
+
+}

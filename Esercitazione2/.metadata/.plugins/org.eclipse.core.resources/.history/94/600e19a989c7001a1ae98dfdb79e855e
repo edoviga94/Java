@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class NumericQuestion extends Question {
+	
+	private String domandaNumerica;
+
+	public NumericQuestion(String domanda, String risposta, int punteggio, String domandaN) {
+		super(domanda, risposta, punteggio);
+		this.domandaNumerica = domandaN;
+	}
+	
+	
+	public int ask() {
+		Scanner in = new Scanner(System.in);
+		System.out.println(domandaNumerica);
+		int x = in.nextInt();
+		if(x > 0 && x == Integer.parseInt(getRisposta())) {
+			super.setPunteggio(10);
+			System.out.println("Risposta giusta!\n Punteggio: "+super.getPunteggio());
+		}
+		else if(s.equalsIgnoreCase("no")){
+			super.setPunteggio(0);
+			System.out.println("Risposta Sbagliata!\n Punteggio: " +super.getPunteggio());
+		}
+		else {
+			System.out.println("Tipo di rispota sbagliata! Rispondere con si oppure no!");
+		}
+		
+		return super.getPunteggio();
+	}
+}

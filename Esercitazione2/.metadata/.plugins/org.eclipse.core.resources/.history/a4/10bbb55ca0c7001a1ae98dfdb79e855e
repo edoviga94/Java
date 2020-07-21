@@ -1,0 +1,18 @@
+import java.util.Random;
+public class TestQuestion {
+
+	public static void main(String[] args) {
+		
+		Question[] domande = new Question[5];
+		
+		domande[0] = new Question();
+		domande[1] = new QuestionYesNo();
+		domande[2] = new NumericQuestion();
+		domande[3] = new MultipleQuestion();
+		domande[4] = new Question();
+		
+		
+
+	}
+
+}

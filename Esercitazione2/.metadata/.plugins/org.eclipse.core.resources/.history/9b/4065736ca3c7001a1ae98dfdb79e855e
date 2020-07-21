@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class MultipleQuestion extends NumericQuestion {
+
+	private int[] risposte;
+
+	public MultipleQuestion(String domanda, String risposta, int[] risposte) {
+		super(domanda, risposta);
+		this.risposte = risposte;
+	}
+
+	public int ask() {
+		Scanner in = new Scanner(System.in);
+		System.out.println(getDomanda());
+		int x = in.nextInt();
+		if (x > 0 && x == Integer.parseInt(getRisposta())) {
+			super.setPunteggio(10);
+			System.out.println("Risposta giusta! Punteggio: " + super.getPunteggio());
+		} else {
+			super.setPunteggio(0);
+			System.out.println("Risposta Sbagliata! Punteggio: " + super.getPunteggio());
+		}
+
+		return super.getPunteggio();
+	}
+}

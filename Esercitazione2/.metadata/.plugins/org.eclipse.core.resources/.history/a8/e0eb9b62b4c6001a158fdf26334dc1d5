@@ -1,0 +1,28 @@
+public class TestEmployee {
+
+	public static void main(String[] args) {
+		Employee[] arrayEmployee = new Employee[3];
+		
+		arrayEmployee[0] = new Employee("Wayne", "Bruce", "GVLLTD34A24F042C", "Gotham City", 12, 42);
+		arrayEmployee[1] = new Employee("Parker","Peter", "RMVQFO85H56L363J", "New York", 20, 22);
+		arrayEmployee[2] = new Employee("Gordon","Flash", "DYLCWC37D43I688N", "Rogue Town", 56, 56);
+		
+		int[] arrayStipendi =  {arrayEmployee[0].getStipendio(), arrayEmployee[1].getStipendio(), arrayEmployee[2].getStipendio()};
+		
+		for (int i = 0; i < arrayStipendi.length; i++) {
+			boolean flag = false;
+			for (int j = 0; j < arrayStipendi.length-1; j++) {
+				if(arrayStipendi[j] > arrayStipendi[j+1]) {
+					int k = arrayStipendi[j+1];
+					arrayStipendi[j+1] = arrayStipendi[j];
+					arrayStipendi[j] = k;
+					flag = true;
+				}
+			}
+			
+			if(!flag)
+				break;
+		}
+	}
+	
+}

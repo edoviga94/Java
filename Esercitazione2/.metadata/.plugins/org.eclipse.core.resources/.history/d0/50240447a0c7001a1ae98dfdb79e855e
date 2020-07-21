@@ -1,0 +1,54 @@
+import java.util.Scanner;
+
+public class Question {
+
+	private String domanda;
+	private String risposta;
+	private int punteggio;
+
+	public Question(String domanda, String risposta, int punteggio) {
+		this.domanda = domanda;
+		this.risposta = risposta;
+		this.punteggio = punteggio;
+	}
+
+	public int ask() {
+		Scanner in = new Scanner(System.in);
+		System.out.println(domanda);
+		String s = in.nextLine();
+		if (s.equals(risposta)) {
+			punteggio = 10;
+			System.out.println("Risposta giusta!\n Punteggio: " + punteggio);
+		} else {
+			punteggio = 0;
+			System.out.println("Risposta Sbagliata!\n Punteggio: " + punteggio);
+		}
+
+		return punteggio;
+	}
+
+	public String getDomanda() {
+		return domanda;
+	}
+
+	public void setDomanda(String domanda) {
+		this.domanda = domanda;
+	}
+
+	public String getRisposta() {
+		return risposta;
+	}
+
+	public void setRisposta(String risposta) {
+		this.risposta = risposta;
+	}
+
+	public int getPunteggio() {
+		return punteggio;
+	}
+
+	public void setPunteggio(int punteggio) {
+		this.punteggio = punteggio;
+	}
+
+}

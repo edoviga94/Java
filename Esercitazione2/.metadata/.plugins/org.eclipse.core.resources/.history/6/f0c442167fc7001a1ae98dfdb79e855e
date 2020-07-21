@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class QuestionYesNo extends Question {
+	
+	private String domandaBinaria;
+
+	public QuestionYesNo(String domanda, String risposta, int punteggio, String domandaB) {
+		super(domanda, risposta, punteggio);
+		this.domandaBinaria = domandaB;
+	}
+	
+	public int ask() {
+		Scanner in = new Scanner(System.in);
+		System.out.println(domandaBinaria);
+		String s = in.nextLine();
+		if(s.equalsIgnoreCase("si")) {
+			super.setPunteggio(10);
+			System.out.println("Risposta giusta!\n Punteggio: "+super.getPunteggio());
+		}
+		else if(s.equalsIgnoreCase("no")){
+			super.setPunteggio(0);
+			System.out.println("Risposta Sbagliata!\n Punteggio: " +super.getPunteggio());
+		}
+		else {
+			System.out.println("Tipo di rispota sbagliata! Rispondere con si oppure no!");
+			break;
+		}
+		
+		return super.getPunteggio();
+	}
+
+	
+}

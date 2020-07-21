@@ -1,0 +1,6 @@
+
+public class MultipleQuestion extends NumericQuestion {
+
+	private String domandaMultipla;
+	private int[] risposte;
+}

@@ -1,0 +1,29 @@
+public class Employee extends Person {
+	private int annoAssunzione;
+	private int stipendio;
+	
+	
+	
+	
+	
+	
+	public Employee(String surname, String name, String taxCode, String city, int year, int salary) {
+		super(surname, name, taxCode, city);
+		this.annoAssunzione = year;
+		this.stipendio = salary;
+	}
+	public int getAnnoAssunzione() {
+		return annoAssunzione;
+	}
+	public void setAnnoAssunzione(int annoAssunzione) {
+		this.annoAssunzione = annoAssunzione;
+	}
+	public int getStipendio() {
+		return stipendio;
+	}
+	public void setStipendio(int stipendio) {
+		this.stipendio = stipendio;
+	}
+	
+	
+}

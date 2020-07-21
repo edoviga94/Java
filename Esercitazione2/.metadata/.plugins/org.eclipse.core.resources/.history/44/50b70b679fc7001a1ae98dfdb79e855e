@@ -1,0 +1,11 @@
+import java.util.Random;
+
+public class TestQuestion {
+
+	public static void main(String[] args) {
+		
+		Question[] domande = new Question[(int)Math*10];
+
+	}
+
+}

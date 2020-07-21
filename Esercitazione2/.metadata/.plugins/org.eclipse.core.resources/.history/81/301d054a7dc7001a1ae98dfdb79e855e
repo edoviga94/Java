@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Question {
+
+	private String domanda;
+	private String risposta;
+	private int punteggio;
+
+	public Question(String domanda, String risposta, int punteggio) {
+		this.domanda = domanda;
+		this.risposta = risposta;
+		this.punteggio = punteggio;
+	}
+	
+	
+	public int ask() {
+		int punteggio;
+		System.out.println(domanda);
+		String s = 
+	}
+
+}

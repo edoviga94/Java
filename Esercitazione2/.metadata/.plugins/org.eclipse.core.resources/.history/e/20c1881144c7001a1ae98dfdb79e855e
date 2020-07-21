@@ -1,0 +1,7 @@
+
+public class TestGarage {
+
+	public static void main(String[] args) {
+		Garage g = new Garage();
+	}
+}

@@ -63,9 +63,10 @@ public class TestEsercizio2 {
 		LinkedList<String> listString = new LinkedList<String>();
 		try {
 			for (int j = 0; j < 9; j++) {
-				if(in.nextLine().length() > 1)
+				String s = in.next();
+				if(s.length() < 2)
 					throw new NotValidValueException();
-				listString.add(in.next());
+				listString.add(s);
 			}
 		} catch(NotValidValueException e) {
 			System.out.print(e);

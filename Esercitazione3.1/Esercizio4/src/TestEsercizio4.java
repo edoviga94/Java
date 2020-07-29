@@ -43,8 +43,6 @@ public class TestEsercizio4 {
 		
 		LinkedList<LinkedList<Integer>> lista = insiemeDiInsiemi(dim);
 		
-		
-		
 		stampa(lista);
 	}
 

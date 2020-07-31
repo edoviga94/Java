@@ -1,6 +1,0 @@
-INDEX VERSION 1.131+C:\Users\Edoardo\Desktop\Java\Esercizi I_O\.metadata\.plugins\org.eclipse.jdt.core
-3514169700.index
-2792540658.index
-2703166955.index
-940989521.index
-1326542023.index

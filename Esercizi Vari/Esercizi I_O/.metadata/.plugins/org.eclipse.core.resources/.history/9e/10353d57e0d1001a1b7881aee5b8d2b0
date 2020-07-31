@@ -1,0 +1,25 @@
+import java.util.ArrayList;
+import java.util.Date;
+
+
+public class TestEsercizio4 {
+	
+	public static void main(String[] args) {
+		
+		
+		ArrayList<Impiegato> list = new ArrayList<Impiegato>();
+		
+		
+		list.add(new Impiegato("Paperino", 1500, new Date()));
+		list.add(new Impiegato("Paolino", 500, new Date()));
+		list.add(new Impiegato("Mickey", 2500, new Date()));
+		list.add(new Impiegato("Mouse", 4500, new Date()));
+		list.add(new Impiegato("Goofy", 9000, new Date()));
+		list.add(new Impiegato("Pluto", 10000, new Date()));
+		list.add(new Impiegato("Zio Paperone", 150000, new Date()));
+		
+		
+		System.out.println(list+"\n");
+	}
+
+}

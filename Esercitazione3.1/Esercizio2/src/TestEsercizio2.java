@@ -62,7 +62,7 @@ public class TestEsercizio2 {
 		System.out.println("Inserire 10 stringhe(con almeno 2 cifre)");
 		LinkedList<String> listString = new LinkedList<String>();
 		try {
-			for (int j = 0; j < 9; j++) {
+			for (int j = 0; j <10; j++) {
 				String s = in.next();
 				if(s.length() < 2)
 					throw new NotValidValueException();

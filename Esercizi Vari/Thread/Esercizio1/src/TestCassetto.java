@@ -7,8 +7,7 @@ public class TestCassetto {
 		Scanner in = new Scanner(System.in);
 		Cassetto cassetto = new Cassetto();
 
-		System.out.print("Inserire il numero di paghette da dare al figlio: ");
-		int mesi = in.nextInt();
+		
 
 		Genitore g = new Genitore(cassetto);
 		Thread t1 = new Thread(g);
@@ -17,10 +16,10 @@ public class TestCassetto {
 		Figlio f = new Figlio(cassetto);
 		
 
-		for (int i = 0; i < mesi; i++) {
+		for (int i = 0; i < 5; i++) {
 			Thread t2 = new Thread(f);
 			t2.start();
-			t2.interrupted();
+			
 		}
 		
 		in.close();

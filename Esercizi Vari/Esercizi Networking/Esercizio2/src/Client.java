@@ -33,7 +33,7 @@ public class Client {
 
 				letto = key.readLine();
 				out.writeBytes(letto + "\n");
-				//out.flush();
+				
 				ricevuta = in.readLine();
 				
 				
